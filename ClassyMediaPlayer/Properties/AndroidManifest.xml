@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+          android:versionCode="1" 
+          android:versionName="1.0" 
+          package="ClassyMediaPlayer.ClassyMediaPlayer">
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="28" />
+  <application android:allowBackup="true" android:icon="@mipmap-hdpi/ic_launcher_round" 
+               android:label="Classy Media Player"                    
+               android:supportsRtl="true"     
+               android:theme="@android:style/Theme.Holo.NoActionBar.TranslucentDecor">
+  </application>
+</manifest>
